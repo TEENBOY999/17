@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <style>
+         div {
+            width: 300px;
+            height: 100px;
+            background-color: yellow;
+            border: 1px solid black;
+         }
+
+         div#myDiv1 {
+            transform: matrix(1, -0.3, 0, 1, 0, 0);
+         }
+
+         div#myDiv2 {
+            transform: matrix(1, 0, 0.5, 1, 150, 0);
+         }
+      </style>
+   </head>
+   <body>
+      <h1>Matrix() usuli</h1>
+    <h4>Parametrlar quyidagicha: matritsa(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY())</h4>
+      <p>TMatrix() usuli barcha 2D transformatsiya usullarini bittaga birlashtiradi.</p>
+
+      <div>Bu oddiy div elementi.</div>
+
+      <div id="myDiv1">Matrix() usulidan foydalanish.</div>
+
+      <div id="myDiv2">Matrix() usulidan yana bir foydalanish.</div>
+   </body>
+</html>
